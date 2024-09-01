@@ -12,7 +12,7 @@ export default function Password({password, onChange}: Password ) {
   return(
     <div>   
       <label htmlFor="name">비밀번호</label>
-      <input name="password" type="password" id="password" value={password} onChange={handleChange} />
+      <input name="password" type="password" id="password" value={password} onChange={handleChange} required/>
     </div>
   );
 }

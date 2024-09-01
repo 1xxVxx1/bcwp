@@ -13,7 +13,7 @@ export default function LoginId({name, onChange}: Name ) {
   return(
     <div>   
       <label htmlFor="name">이름</label>
-      <input name="name" id="name" value={name} onChange={handleChange}/>
+      <input name="name" id="name" value={name} onChange={handleChange} required/>
     </div>
   );
 }
