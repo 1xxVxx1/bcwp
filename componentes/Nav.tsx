@@ -1,7 +1,7 @@
 export default function Nav () {
   return(
     <div>
-      네비게이션이다!!!!
+      오늘 하루도 감사한 하루!!!
     </div>
   )
 }
